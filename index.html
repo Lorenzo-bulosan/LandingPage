@@ -14,6 +14,9 @@
     <!--Custom Styles-->
     <link rel="stylesheet" href="./css/index.css" />
 
+    <!--custom js-->
+    <script src="./js/index.js"></script>
+
 </head>
 
 <body>
@@ -22,11 +25,11 @@
 
         <!--side bar-->
         <div class="tab-container">
-            <ul>
-                <li><a class="active" href="#overview">Overview</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://www.monokayu.com" target="_blank">Custom services</a></li>
+            <ul onclick="SidebarTabOnChange(event)">
+                <li><a class="tab-item active" href="#overview"><i class="fa fa-user-circle-o"></i> Overview</a></li>
+                <li><a class="tab-item" href="https://github.com/Lorenzo-bulosan" target="_blank"><i class="fa fa-bar-chart" aria-hidden="true"></i> Projects</a></li>
+                <li><a class="tab-item" href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                <li><a class="tab-item" href="https://www.monokayu.com" target="_blank"><i class="fa fa-space-shuttle" aria-hidden="true"></i> Custom services</a></li>
             </ul>
         </div>
         <!--profile content-->
@@ -45,7 +48,7 @@
             <div class="social-media-buttons-container">
                 <a href="#"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                <p><button>Contact</button></p>
+                <p><button class="btn-contact">Contact</button></p>
             </div>
             <div>
                 <img src="./resources/Monokayu1-Transparent.png" width="200"/>

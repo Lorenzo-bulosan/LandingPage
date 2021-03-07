@@ -25,18 +25,19 @@
     margin: auto;
 }
 /*Body*/
-body 
-{
-    background-image: url("../resources/background-image.jpg");
+body {
+    background: url("../resources/background-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
     /*background-color:antiquewhite;*/
 }
 /*Main container*/
-.main-container
-{
+.main-container {
     width: 60vw;
     height: 80vh;
     display: grid;
     grid-template-columns: 20% 80%;
+    grid-column-gap: 1vw;
 }
 /*Side Tabs*/
 .tab-container ul 
