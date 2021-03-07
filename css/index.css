@@ -1,1 +1,80 @@
 
+/*Debugging*/
+.border
+{
+    border: 1px solid black;
+}
+.debug > div:nth-child(even)
+{
+    background-color: #DDD;
+}
+.debug > div:nth-child(odd) 
+{
+    background-color: #EEE;
+}
+/*General classes*/
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.center-horizontal 
+{
+    margin: auto;
+}
+/*Body*/
+body 
+{
+    background-image: url("../resources/background-image.jpg");
+    /*background-color:antiquewhite;*/
+}
+/*Main container*/
+.main-container
+{
+    width: 60vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+/*Side Tabs*/
+.tab-container 
+{
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+}
+li a 
+{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+li a:hover:not(.active) 
+{
+    background-color: #555;
+    color: white;
+}
+/*Profile container*/
+.profile-container
+{
+
+}
+.social-media-buttons-container
+{
+
+}
