@@ -83,12 +83,14 @@ img
 .profile-container
 .profile-main-description
 {
+    padding-top: 1vh;
     padding-bottom: 1vh;
     border-bottom: 3px solid #555;
 }
 .profile-container
 .profile-main-description
-.text {
+.text, p 
+{
     font-family: monospace;
     margin: 0;
 }
@@ -96,8 +98,55 @@ img
 .profile-main-description
 .text-highlight
 {
-    color: #5daf80;
+    color: #343434;
+    /*color: #5daf80;*/
 }
+.profile-container
+.profile-sub-description 
+{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+.profile-container
+.profile-sub-description
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.profile-container
 .social-media-buttons-container 
 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.profile-container 
+.social-media-buttons-container 
+a 
+{
+    margin-top: 2vh;
+    font-size: 2em;
+    color: #000;
+}
+.profile-container
+.social-media-buttons-container
+button 
+{
+    width: 80%;
+    margin-top: 1em;
+    border-radius: 15px;
+    padding: 0.5em;
+    background-color: #343434;
+    color: #FFF;
+    font-size: 1em;
+}
+.profile-container
+.social-media-buttons-container
+button:hover {
+    width: 80%;
+    border-radius: 15px;
+    padding: 0.5em;
+    background-color: #646464;
+    color: #FFF;
+    font-size: 1em;
 }
