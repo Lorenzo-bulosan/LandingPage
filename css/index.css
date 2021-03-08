@@ -39,6 +39,13 @@ body {
     grid-template-columns: 20% 80%;
     grid-column-gap: 1vw;
 }
+.main-container-expanded {
+    width: 60vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-column-gap: 1vw;
+}
 /*Side Tabs*/
 .tab-container ul 
 {
@@ -147,6 +154,8 @@ a
 }
 .profile-container
 .social-media-buttons-container
+button,
+.leftbar-extra-information
 button 
 {
     width: 80%;
@@ -159,13 +168,22 @@ button
 }
 .profile-container
 .social-media-buttons-container
-button:hover {
+button:hover,
+.leftbar-extra-information
+button:hover 
+{
     width: 80%;
     border-radius: 15px;
     padding: 0.5em;
     background-color: #646464;
     color: #FFF;
     font-size: 1em;
+}
+.profile-container
+.skills-list
+.more-information-text:hover
+{
+    text-decoration: underline;
 }
 /*side bar extra information*/
 .sidebar-extra-information 
@@ -177,8 +195,6 @@ button:hover {
     width: 5vw;
     transition: width 3s, height 2s;
     margin-left: 50% !important;
-
-    
     overflow:hidden
 }
 .sidebar-extra-information:hover 
@@ -190,4 +206,25 @@ button:hover {
 p
 {
     color: #FFF;
+}
+/*left bar extra information*/
+.leftbar-extra-information 
+{
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+}
+.leftbar-extra-information
+h4
+{
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+.leftbar-extra-information
+p 
+{
+    text-align: left;
+    margin-left: 1em;
 }

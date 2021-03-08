@@ -1,29 +1,16 @@
-form
+body 
 {
-    background-color:antiquewhite;
+    background: url("../resources/background-image1.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
-input
+.main 
 {
-    margin: 2vmin;
-}
-.full-width
-{
-    display: block;
-}
-nav 
-{
-    
-}
-ul 
-{
-    list-style: none;
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-il
-{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
+    margin-top: 10vh;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 70vw;
+    min-height: 50vh;
+    padding: 5em;
+    overflow: hidden;
 }

@@ -6,53 +6,44 @@
     <meta charset="utf-8" />
 
     <!--Fontawesome-->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Custom Styles-->
     <link rel="stylesheet" href="./css/contact.css" />
+
+    <!--Bootstrap and jquery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li>hellooo</li>
-            <li>yes</li>
-            <li>hmm no</li>
-        </ul>
-    </nav>
+    <div class="row justify-content-center">
+        <div class="main">
+            <h3>Send me a message</h3>
+            <form role="form" id="ContactForm">
+                <div class="row">
+                    <div class="form-group col-sm-6">
+                        <label for="name" class="h4">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="email" class="h4">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="h4 ">Message</label>
+                    <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+                <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
 
-    <form action="https://www.bbc.co.uk/search">
-        <label for="search">Search for: </label>
-        <input type="text" id="search" name="q" value="London" /> <br />
-
-        <input type="submit" name="submit" value="lorenzo" />
-    </form>
-    <br />
-    <h2>User Forms</h2>
-    <form>
-        <input type="text" placeholder="name" name="FirstName" required autocapitalize autofocus />
-        <br />
-        <input type="password" name="Password" placeholder="Never do this as is on parameter" maxlength="5" required />
-        <button type="submit">Buttoonn</button>
-
-        <br />
-        <label for="tickthis"> Tick this</label>
-        <input type="checkbox" name="tickthis" value="tick" checked />
-
-        <br />
-        <input type="radio" name="radioGroup1" value="first" checked />
-        <label for="first">First</label>
-        <input type="radio" name="radioGroup1" value="second" checked />
-        <label for="second">Second</label>
-
-        <br />
-        <select multiple name="choosethis">
-            <option value="potatoes" selected>potato</option>
-            <option value="watermelon" >watermelon</option>
-            <option value="oranges" >oranges</option>
-        </select>
-
-    </form>
+            </form>
+        </div>
+    </div>
 
 </body>
 </html>
