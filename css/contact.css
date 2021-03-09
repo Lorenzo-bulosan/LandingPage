@@ -1,6 +1,6 @@
 body 
 {
-    background: url("../resources/background-image1.jpg") no-repeat center center fixed;
+    background: url("../resources/background-image.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 .main 
@@ -13,4 +13,21 @@ body
     min-height: 50vh;
     padding: 5em;
     overflow: hidden;
+}
+.btn-go-back {
+    width: 50vw;
+    margin-top: 1em;
+    border-radius: 15px;
+    padding: 0.5em;
+    background-color: #343434;
+    color: #FFF;
+    font-size: 1em;
+}
+.btn-go-back:hover {
+    width: 60vw;
+    border-radius: 15px;
+    padding: 0.5em;
+    background-color: #646464;
+    color: #FFF;
+    font-size: 1em;
 }

@@ -27,8 +27,8 @@
         <div class="tab-container">
             <ul onclick="SidebarTabOnChange(event)">
                 <li><a class="tab-item active" href="#overview"><i class="fa fa-user-circle-o"></i> Overview</a></li>
-                <li><a class="tab-item" href="https://github.com/Lorenzo-bulosan" target="_blank"><i class="fa fa-bar-chart" aria-hidden="true"></i> Projects</a></li>
-                <li><a class="tab-item" href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                <li><a class="tab-item" href="contact.html" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                <li><a class="tab-item" href="https://lorenzo-bulosan.github.io/GraphVisualizer/" target="_blank"><i class="fa fa-bar-chart" aria-hidden="true"></i> Graph Visualizer</a></li>
                 <li><a class="tab-item" href="https://www.monokayu.com" target="_blank"><i class="fa fa-space-shuttle" aria-hidden="true"></i> Custom services</a></li>
             </ul>
         </div>
@@ -65,24 +65,26 @@
                 <p class="more-information-text" onclick="ShowExtraInformation()">More information</p>
             </div>
             <div class="social-media-buttons-container">
-                <a href="#"><i class="fa fa-github"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Lorenzo-bulosan" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lorenzo-bulosan/" target="_blank"><i class="fa fa-linkedin"></i></a>
                 <p><button class="btn-contact">Contact</button></p>
             </div>
         </div>
         <!--extra information alternative-->
         <div class="leftbar-extra-information">
-            
+
             <h4>Education</h4>
 
             <p>2015-2018</p>
             <p>BEng Biomedical Engineering</p>
+            <p>City University London</p>            
             <p>Grade: 1st</p>
             <br />
             <p>2018-2019</p>
             <p>MSc Human Biological Robotics</p>
+            <p>Imperial College London</p>            
             <p>Grade: Merit</p>
-            
+
             <h4>Work Experience</h4>
 
             <p>2019-2020</p>
@@ -93,10 +95,18 @@
             <button onclick="HideExtraInformation()">Close</button>
         </div>
     </div>
+
+    <!--iframe weather widget-->
+    <iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=3&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=dark" 
+            frameborder="0" scrolling="NO" allowtransparency="true" 
+            style="width: 15vw; height: 50vh">
+    </iframe>
+    <!--<div><a href="https://www.meteoblue.com/en/weather/week/index?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div>-->
+
     <!--extra information-->
     <!--<div class="sidebar-extra-information">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-    </div>-->   
+    </div>-->
 
 </body>
 
